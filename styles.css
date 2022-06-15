@@ -1,0 +1,65 @@
+.wordBox{
+    text-align: center;
+    width: 100%;
+    height: 4.25em;
+}
+.letterBox{
+    display: inline-block;
+    width: 3.75em;
+    height: 3.75em;
+    border-style: solid !important;
+    border: 0.125em;
+    border-color: #444444;
+    margin: 0.1875em;
+    text-align: center;
+    vertical-align: top;
+}
+body{
+    background-color: #111111;
+    font-family: Verdana;
+    font-size: 16px !important;
+}
+div{
+    font-size: 16px !important;
+}
+h2{
+    color:#ffffff;
+}
+#title{
+    text-align: center;
+}
+#wordle{
+    color: #ffffff;
+    font-size: 3.75em;
+}
+#keyboard{
+    margin: auto;
+    text-align: center;
+    width: 22.5em;
+}
+.key{
+    margin-top:0.3125em;
+    height:3.125em;
+    width:1.875em;
+    font-family:Verdana;
+    font-size: 16px;
+    background-color:#aaaaaa;
+    border-color: #aaaaaa;
+    color:black;
+    border-radius: 0.625em;
+    border-style: solid;
+    text-align: center;
+}
+.double{
+    margin-top:0.3125em;
+    height:3.125em;
+    width: 4em;
+    font-family:Verdana;
+    font-size: 16px;
+    background-color:#aaaaaa;
+    border-color: #aaaaaa;
+    color:black;
+    border-radius: 0.625em;
+    border-style: solid;
+    text-align: center;
+}
