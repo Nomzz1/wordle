@@ -6,6 +6,8 @@
     </head>
     <body>
         <div id = "title"><h1 id = "wordle">WORDLE</h1></div>
+        <div id = "alerts" style = "text-align: center;justify-content: center;display: flex;"></div>
+        <div id = "buffer" style = "height:1em;"></div>
         <div id = "word1" class = "wordBox"><div id = "letter11" class = "letterBox"></div><div id = "letter12" class = "letterBox"></div><div id = "letter13" class = "letterBox"></div><div id = "letter14" class = "letterBox"></div><div id = "letter15" class = "letterBox"></div></div>
         <div id = "word2" class = "wordBox"><div id = "letter21" class = "letterBox"></div><div id = "letter22" class = "letterBox"></div><div id = "letter23" class = "letterBox"></div><div id = "letter24" class = "letterBox"></div><div id = "letter25" class = "letterBox"></div></div>
         <div id = "word3" class = "wordBox"><div id = "letter31" class = "letterBox"></div><div id = "letter32" class = "letterBox"></div><div id = "letter33" class = "letterBox"></div><div id = "letter34" class = "letterBox"></div><div id = "letter35" class = "letterBox"></div></div>
@@ -14,34 +16,34 @@
         <div id = "word6" class = "wordBox"><div id = "letter61" class = "letterBox"></div><div id = "letter62" class = "letterBox"></div><div id = "letter63" class = "letterBox"></div><div id = "letter64" class = "letterBox"></div><div id = "letter65" class = "letterBox"></div></div>
         <div id = "buffer" style =" height:50px;"></div>
         <div id = "keyboard">
-            <button class = "key" onclick = "wordle('A')">A</button>
-            <button class = "key" onclick = "wordle('B')">B</button>
-            <button class = "key" onclick = "wordle('C')">C</button>
-            <button class = "key" onclick = "wordle('D')">D</button>
-            <button class = "key" onclick = "wordle('E')">E</button>
-            <button class = "key" onclick = "wordle('F')">F</button>
-            <button class = "key" onclick = "wordle('G')">G</button>
-            <button class = "key" onclick = "wordle('H')">H</button>
-            <button class = "key" onclick = "wordle('I')">I</button>
-            <button class = "key" onclick = "wordle('J')">J</button>
-            <button class = "key" onclick = "wordle('K')">K</button>
-            <button class = "key" onclick = "wordle('L')">L</button>
-            <button class = "key" onclick = "wordle('M')">M</button>
-            <button class = "key" onclick = "wordle('N')">N</button>
-            <button class = "key" onclick = "wordle('O')">O</button>
-            <button class = "key" onclick = "wordle('P')">P</button>
-            <button class = "key" onclick = "wordle('Q')">Q</button>
-            <button class = "key" onclick = "wordle('R')">R</button>
-            <button class = "key" onclick = "wordle('S')">S</button>
-            <button class = "key" onclick = "wordle('T')">T</button>
-            <button class = "double" onclick = "wordle('Enter')">ENTER</button>
-            <button class = "key" onclick = "wordle('U')">U</button>
-            <button class = "key" onclick = "wordle('V')">V</button>
-            <button class = "key" onclick = "wordle('W')">W</button>
-            <button class = "key" onclick = "wordle('X')">X</button>
-            <button class = "key" onclick = "wordle('Y')">Y</button>
-            <button class = "key" onclick = "wordle('Z')">Z</button>
-            <button class = "double" onclick = "wordle('Backspace')">BACK</button>
+            <button id = "A" class = "key" onclick = "wordle('A')">A</button>
+            <button id = "B" class = "key" onclick = "wordle('B')">B</button>
+            <button id = "C" class = "key" onclick = "wordle('C')">C</button>
+            <button id = "D" class = "key" onclick = "wordle('D')">D</button>
+            <button id = "E" class = "key" onclick = "wordle('E')">E</button>
+            <button id = "F" class = "key" onclick = "wordle('F')">F</button>
+            <button id = "G" class = "key" onclick = "wordle('G')">G</button>
+            <button id = "H" class = "key" onclick = "wordle('H')">H</button>
+            <button id = "I" class = "key" onclick = "wordle('I')">I</button>
+            <button id = "J" class = "key" onclick = "wordle('J')">J</button>
+            <button id = "K" class = "key" onclick = "wordle('K')">K</button>
+            <button id = "L" class = "key" onclick = "wordle('L')">L</button>
+            <button id = "M" class = "key" onclick = "wordle('M')">M</button>
+            <button id = "N" class = "key" onclick = "wordle('N')">N</button>
+            <button id = "O" class = "key" onclick = "wordle('O')">O</button>
+            <button id = "P" class = "key" onclick = "wordle('P')">P</button>
+            <button id = "Q" class = "key" onclick = "wordle('Q')">Q</button>
+            <button id = "R" class = "key" onclick = "wordle('R')">R</button>
+            <button id = "S" class = "key" onclick = "wordle('S')">S</button>
+            <button id = "T" class = "key" onclick = "wordle('T')">T</button>
+            <button id = "Enter" class = "double" onclick = "wordle('Enter')">ENTER</button>
+            <button id = "U" class = "key" onclick = "wordle('U')">U</button>
+            <button id = "V" class = "key" onclick = "wordle('V')">V</button>
+            <button id = "W" class = "key" onclick = "wordle('W')">W</button>
+            <button id = "X" class = "key" onclick = "wordle('X')">X</button>
+            <button id = "Y" class = "key" onclick = "wordle('Y')">Y</button>
+            <button id = "Z" class = "key" onclick = "wordle('Z')">Z</button>
+            <button id = "Backspace" class = "double" onclick = "wordle('Backspace')">BACK</button>
         </div>
     </body>
 </html>
