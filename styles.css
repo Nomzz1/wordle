@@ -54,7 +54,7 @@ h2{
 .double{
     margin-top:0.3125em;
     height:3.125em;
-    width: 4em;
+    width: 4.125em;
     font-family:Verdana;
     font-size: 16px;
     font-weight: bold;
@@ -64,7 +64,7 @@ h2{
     border-radius: 0.625em;
     border-style: solid;
     text-align: center;
-    justify-content: center;
+    padding: 0px;
 }
 .alerts{
     display: flex;

@@ -43,18 +43,12 @@ function wordle(Letter){
                         if (letterList[guess[i]] == null || letterList[guess[i]] == 0){
                             document.getElementById("letter"+String(row)+String(i+1)).style = "background-color:grey;";
                             document.getElementById(`${guess[i]}`).style = "background-color:#696969;border-color:#696969;";
-                        };
-                    };
-                    for (let i = 0;i < 5;i++){
-                        if (guess[i] == word[i]){
+                        } else if (guess[i] == word[i]){
                             document.getElementById("letter"+String(row)+String(i+1)).style = "background-color:green;";
                             document.getElementById(`${guess[i]}`).style = "background-color:green;border-color:green;";
                             letterList[guess[i]] -= 1;
                             winCondition += 1;
-                        };
-                    };
-                    for (let i = 0;i < 5;i++){
-                        if (letterList[guess[i]] > 0){
+                        } else if (letterList[guess[i]] > 0){
                             document.getElementById("letter"+String(row)+String(i+1)).style = "background-color:gold;";
                             document.getElementById(`${guess[i]}`).style = "background-color:gold;border-color:gold;";
                             letterList[guess[i]] -= 1;
