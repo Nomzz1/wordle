@@ -37,8 +37,14 @@ h2{
     text-align: center;
     width: 22.5rem;
 }
+#row1, #row2, #row3{
+    display: flex;
+    justify-content: center;
+}
 .key{
     margin-top:0.3125rem;
+    margin-left: 0.15625rem;
+    margin-right: 0.15625rem;
     height:3.125rem;
     width:1.875rem;
     font-family:Verdana;
@@ -53,6 +59,8 @@ h2{
 }
 .double{
     margin-top:0.3125rem;
+    margin-left: 0.15625rem;
+    margin-right: 0.15625rem;
     height:3.125rem;
     width: 4.125rem;
     font-family:Verdana;
